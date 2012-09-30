@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content='' />
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="src/css/home.css" />
+  <link rel="stylesheet" type="text/css" href="src/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="src/css/nav.css" />
+  <link rel="stylesheet" type="text/css" href="src/css/footer.css" />
+
+  <script type='text/javascript' src='src/js/jquery-1.4.2.js'></script>
+
+  <title>Andy Mindler - Interactive Designer, 3D Artist, &amp; Developer</title>
+
+  <script type='text/javascript'>//<![CDATA[ 
+    $(window).load(function(){
+     var topRange      = 100,  // measure from the top of the viewport to X pixels down
+         edgeMargin    = 50,   // margin above the top or margin from the end of the page
+         animationTime = 1200, // time in milliseconds
+         contentTop = [];
+
+    $(document).ready(function(){ 
+
+     // Stop animated scroll if the user does something
+     $('html,body').bind('scroll mousedown DOMMouseScroll mousewheel keyup', function(e){
+     if ( e.which > 0 || e.type == 'mousedown' || e.type == 'mousewheel' ){
+      $('html,body').stop();
+     }
+    })
+
+     // Set up content an array of locations
+     $('#menu').find('a').each(function(){
+      contentTop.push( $( $(this).attr('href') ).offset().top );
+     })
+
+     // Animate menu scroll to content
+      $('#menu').find('a').click(function(){
+       var sel = this,
+           newTop = Math.min( contentTop[ $('#menu a').index( $(this) ) ], $(document).height() - $(window).height() ); // get content top or top position if at the document bottom
+       $('html,body').stop().animate({ 'scrollTop' : newTop }, animationTime, function(){
+        window.location.hash = $(sel).attr('href');
+       });
+       return false;
+     })
+     
+     // adjust side menu
+     $(window).scroll(function(){
+      var winTop = $(window).scrollTop(),
+          bodyHt = $(document).height(),
+          vpHt = $(window).height() + edgeMargin;  // viewport height + margin
+      $.each( contentTop, function(i,loc){
+       if ( ( loc > winTop - edgeMargin && ( loc < winTop + topRange || ( winTop + vpHt ) >= bodyHt ) ) ){
+        $('#menu li')
+         .removeClass('selected')
+         .eq(i).addClass('selected');
+       }
+      })
+     })
+      
+    })
+    });//]]>  
+
+</script>
+
+
+
+</head>
+
+<body>
+<div id='nav' align='center'>
+  <div id="menu">
+    <ul>
+      <li class='selected'><div id='home-nav'><a href="#home"></a></div></li>
+      <li><div id='aboutme-nav'><a href="#aboutme"></a></div></li>
+      <li><div id='getintouch-nav'><a href="#getintouch"></a></div></li>
+    </ul>
+  </div>
+  <div id='blog-nav'><a href="blog" target="_blank"></a></div>
+
+  <span class="preload1"></span>
+  <span class="preload2"></span>
+  <span class="preload3"></span>
+  <span class="preload4"></span>
+  <span class="preload5"></span>
+  <span class="preload6"></span>
+  <span class="preload7"></span>
+  <span class="preload8"></span>
+  <span class="preload9"></span>
+  <span class="preload10"></span>
+  <span class="preload11"></span>
+</div>
+
+
+<div id="main" align='center'>
+  
+   <a id="home"></a>
+   <div class="content">
+      <div id='content-home'></div>
+      <div id='content-portfolio'>
+        <div id='projects'>
+
+          <div class='projectleft'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+          <div class='projectright'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+
+          <div class='projectleft'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+          <div class='projectright'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+
+          <div class='projectleft'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+          <div class='projectright'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+
+          <div class='projectleft'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+
+
+          <div class='projectright'>
+            <img src='content/img/home/project-temp.jpg'></img>
+            <div class='projectcontent'>
+              <img src='content/img/home/smogville-title.jpg'></img>
+              <div class='tags'><img src='content/img/home/smogville-tags.jpg'></img></div>
+            </div>
+
+            <div class='viewproject'><a href='#'></a></div>
+          </div>
+        </div>
+
+      </div>
+   </div>
+
+   <a id="aboutme"></a>
+   <div class="content">
+      <div id='about-section'>
+        <div id='about-content'>
+          <div id='about-title'><img src='content/img/home/aboutme-title.jpg'></img></div>
+          <div id='about-text'>
+          Hey, I’m Andy! I am an interactive designer working in Charlotte, NC. I graduated from Rochester Institute of Technology in 2009 with a BFA in New Media Design &amp; Imaging, and a concentration in Communications.
+          <br><br>
+          I have worked on brands such as Radioshack, Henrick Motor Sports, Mizuno, Columbia, Mini Cooper, Bojangles, Brica, and Smith &amp; Nephew.
+          <br><br>
+          One of the things that I love about interactive work is that I get to incorporate painting and drawing into the concept process as well as bringin my love of 3D modeling and texturing to create a richer visual depth to my work.
+           <div id='download-resume'><a href='content/img/home/AndyMindler_Resume-2012.pdf' target='_blank'></a></div>
+          </div>
+         
+           <div id='about-photo'><img src='content/img/home/about-photo.jpg'></img></div>
+        </div>
+       
+      </div>
+   </div>
+
+   <a id="getintouch"></a>
+   <div class="content">
+      <div id='contact-section'>
+
+        <div id='contact-content'>
+          <div id='contact-title'><img src='content/img/home/contact-title.jpg'></img></div>
+          <div id='contact-email'><a href='mailTo:amindler@gmail.com?subject=Getting in touch from your portfolio'></a></div>
+          <div id='twitter'><a href='http://twitter.com/amindler' target='_blank'></a></div>
+          <div id='facebook'><a href='https://www.facebook.com/profile.php?id=24409533' target='_blank'></a></div>
+          <div id='dribbble'><a href='http://dribbble.com/andymindler' target='_blank'></a></div>
+          <div id='youtube'><a href='http://www.youtube.com/user/amindler' target='_blank'></a></div>
+          <div id='linkedin'><a href='http://www.linkedin.com/profile/view?id=45819603&locale=en_US&trk=tyah' target='_blank'></a></div>
+        </div>
+      </div>
+   </div>
+
+
+   <a id="footer"></a>
+   <div id="footer">
+      <div id='footer-holder'>
+        <div id='footer-content'>
+          <div id='footer-left'></div>
+          <div class='dottedline-left'></div>
+          <div id='footer-logo'></div>
+          <div class='dottedline-right'></div>
+          <div id='footer-right'></div>
+        </div>
+      </div>
+     </div>
+   </div>s
+
+</div>
+  	
+
+    <span class="preload12"></span>
+    <span class="preload13"></span>
+</body>
+</html>

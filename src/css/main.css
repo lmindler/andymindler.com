@@ -1,0 +1,22 @@
+#main{
+	height:1000px;
+	width:100%;
+	background: url('../../content/img/home/bg-portfolio.jpg') repeat-x;
+}
+
+
+body
+{
+	margin:auto;
+	background: url('../../content/img/shared/bg-tile.jpg');
+	
+}
+
+#content-home{
+	width:1024px;
+	height:216px;
+	background: url(../../content/img/shared/header.jpg);
+	position:relative;
+	overflow:hidden;
+}
+

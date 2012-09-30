@@ -1,0 +1,207 @@
+#nav{
+	z-index:1;
+	position:fixed;
+	top:0px;
+	text-align:center;
+	width:100%;
+	
+}
+
+#menu{
+	display:block; 
+	cursor:pointer;
+	margin:auto;
+	list-style:none;
+	text-align:center;
+	width:560px;
+}
+
+#menu ul{
+	list-style:none;
+	margin:auto;
+}
+
+/*------------------HOME----------------*/
+
+#menu li.selected #home-nav a{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home-selected.png);
+	float:left;
+}
+
+#menu li.selected #home-nav a:hover{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home-selected.png);
+	float:left;
+}
+
+#menu li.selected #home-nav a:active{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home-selected.png);
+	float:left;
+}
+
+#menu li #home-nav a{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home.png);
+	float:left;
+}
+
+#menu li #home-nav a:hover{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home-hover.png);
+	float:left;
+}
+
+#menu li #home-nav a:active{
+	width:50px;
+	height:43px;
+	background: url(../../content/img/shared/nav/home-active.png);
+	float:left;
+}
+
+
+
+/*------------------ABOUT ME----------------*/
+
+#menu li.selected #aboutme-nav a{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about-selected.png);
+	float:left;
+}
+
+#menu li.selected #aboutme-nav a:hover{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about-selected.png);
+	float:left;
+}
+
+#menu li.selected #aboutme-nav a:active{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about-selected.png);
+	float:left;
+}
+
+#menu li #aboutme-nav a{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about.png);
+	float:left;
+}
+
+#menu li #aboutme-nav a:hover{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about-hover.png);
+	float:left;
+}
+
+#menu li #aboutme-nav a:active{
+	width:140px;
+	height:43px;
+	background: url(../../content/img/shared/nav/about-active.png);
+	float:left;
+}
+
+
+
+/*------------------GET IN TOUCH----------------*/
+
+#menu li.selected #getintouch-nav a{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch-selected.png);
+	float:left;
+}
+
+#menu li.selected #getintouch-nav a:hover{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch-selected.png);
+	float:left;
+}
+
+#menu li.selected #getintouch-nav a:active{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch-selected.png);
+	float:left;
+}
+
+#menu li #getintouch-nav a{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch.png);
+	float:left;
+}
+
+#menu li #getintouch-nav a:hover{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch-hover.png);
+	float:left;
+}
+
+#menu li #getintouch-nav a:active{
+	width:169px;
+	height:43px;
+	background: url(../../content/img/shared/nav/get-in-touch-active.png);
+	float:left;
+}
+
+
+
+/*------------------BLOG----------------*/
+
+#nav #blog-nav a
+{	
+	display:block;
+	width:116px;
+	height:43px;
+	background: url(../../content/img/shared/nav/blog.png);
+	float:left;
+}
+
+#nav #blog-nav a:hover
+{	
+	display:block;
+	width:116px;
+	height:43px;
+	background: url(../../content/img/shared/nav/blog-hover.png);
+	float:left;
+}
+
+#nav #blog-nav a:active
+{	
+	display:block;
+	width:116px;
+	height:43px;
+	background: url(../../content/img/shared/nav/blog-active.png);
+	float:left;
+}
+
+
+
+.preload1 {background: url(../../content/img/shared/nav/home.png);}
+.preload2 {background: url(../../content/img/shared/nav/home-hover.png);}
+.preload3 {background: url(../../content/img/shared/nav/home-active.png);}
+
+.preload4 {background: url(../../content/img/shared/nav/about-selected.png);}
+.preload5 {background: url(../../content/img/shared/nav/about-hover.png);}
+.preload6 {background: url(../../content/img/shared/nav/about-active.png);}
+
+
+.preload7 {background: url(../../content/img/shared/nav/get-in-touch-selected.png);}
+.preload8 {background: url(../../content/img/shared/nav/get-in-touch-hover.png);}
+.preload9 {background: url(../../content/img/shared/nav/get-in-touch-active.png);}
+
+.preload10 {background: url(../../content/img/shared/nav/blog-hover.png);}
+.preload11 {background: url(../../content/img/shared/nav/blog-active.png);}

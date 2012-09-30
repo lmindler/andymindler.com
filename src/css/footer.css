@@ -1,0 +1,63 @@
+#footer-holder
+{
+	width:960px;
+}
+
+#footer-content
+{
+	text-align:left;
+}
+
+#footer-left
+{
+	position:relative;
+	top:50px;
+	float:left;
+	width:173px;
+	height:8px;
+	background:url(../../content/img/shared/footer-left.jpg);
+}
+.dottedline-left
+{
+	position:relative;
+	top:54px;
+	left:10px;
+	float:left;
+	width:248px;
+	height:1px;
+	background:url(../../content/img/shared/footer-dottedline.jpg);
+}
+
+#footer-logo
+{
+	float:left;
+	width:55px;
+	height:57px;
+	position:relative;
+	top:24px;
+	left:20px;
+	background:url(../../content/img/shared/footer-logo.jpg);
+}
+
+.dottedline-right
+{
+	position:relative;
+	top:54px;
+	left:30px;
+	float:left;
+	width:248px;
+	height:1px;
+	background:url(../../content/img/shared/footer-dottedline.jpg);
+}
+
+#footer-right
+{
+	float:left;
+	width:180px;
+	height:8px;
+	position:relative;
+	top:50px;
+	left:40px;
+	background:url(../../content/img/shared/footer-thanks.jpg);
+
+}

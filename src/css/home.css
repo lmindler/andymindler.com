@@ -1,0 +1,403 @@
+.content {
+	overflow:hidden;
+}
+#content-portfolio
+{
+	position:relative;
+	top:2px;
+	width:960px;
+	height:1500px;
+	background: url('../../content/img/home/bg-portfolio2.jpg') repeat-x;
+}
+
+#projects
+{
+	position:relative;
+	top:60px;
+}
+
+.projectleft{
+	float:left;
+	width:461px;
+	padding-right:35px;
+	padding-bottom:50px;
+}
+
+.projectright{
+	width:461px;
+	float:left;
+	padding-bottom:50px;
+}
+
+.projectcontent
+{
+	text-align:left;
+	width:330px;
+	float:left;
+	position:relative;
+	top:5px;
+}
+.tags
+{
+	position:relative;
+	top:5px;
+}
+
+.viewproject
+{
+	position:relative;
+	top:5px;
+	display:block;
+	cursor:pointer;
+	float:left;
+
+	width:129px;
+	height:34px;
+}
+
+.viewproject a
+{
+	float:left;
+	width:129px;
+	display:block;
+	height:34px;
+	background: url('../../content/img/home/viewproject.png') no-repeat;
+}
+
+.viewproject a:hover
+{
+	width:129px;
+	height:34px;
+	display:block;
+	background: url('../../content/img/home/viewproject-hover.png') no-repeat;
+}
+
+.viewproject a:active
+{
+	width:129px;
+	height:34px;
+	display:block;
+	background: url('../../content/img/home/viewproject-active.png') no-repeat;
+}
+
+/*--------------------------ABOUT SECTION------------------*/
+#about-section
+{
+	width:100%;
+	height:477px;
+	background: url('../../content/img/home/bg-about.jpg') repeat-x;
+}
+
+#about-content
+{
+	width:960px;
+	position:relative;
+	top:60px;
+	text-align:left;
+}
+
+#about-title
+{
+	position:relative;
+	left:0px;
+}
+
+#about-text
+{
+	position:relative;
+	top:20px;
+	width:450px;
+	font-family:"Arial", sans-serif;
+	font-size:11pt;
+	color:#344a51;
+	float:left;
+}
+
+#download-resume
+{
+	position:relative;
+	top:24px;
+	right:3px;
+	display:block;
+	cursor:pointer;
+	width:219px;
+	height:44px;
+	z-index:9;
+}
+
+#download-resume a
+{
+	width:219px;
+	height:44px;
+	display:block;
+	background: url(../../content/img/home/downloadresume.png) no-repeat;
+}
+
+#download-resume a:hover
+{
+	width:219px;
+	height:44px;
+	display:block;
+	background: url(../../content/img/home/downloadresume-hover.png) no-repeat;
+}
+
+#download-resume a:active
+{
+	width:219px;
+	height:44px;
+	display:block;
+	background: url(../../content/img/home/downloadresume-active.png) no-repeat;
+}
+
+
+#about-photo
+{
+	position:relative;
+	left:50px;
+	top:20px;
+}
+
+#contact-section
+{
+	width:100%;
+	height:165px;
+	position:relative;
+	background: url('../../content/img/home/bg-getintouch.jpg') repeat-x;
+}
+
+#contact-content
+{
+	width:960px;
+	position:relative;
+	top:55px;
+	text-align:left;
+}
+
+#contact-title
+{
+	float:left;
+}
+
+
+#contact-email
+{
+	float:left;
+	position:relative;
+	left:30px;
+	display:block;
+	cursor:pointer;
+	width:336px;
+	height:51px;
+	z-index:9;
+}
+
+#contact-email a
+{
+	width:336px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/email.jpg) no-repeat;
+}
+
+#contact-email a:hover
+{
+	width:336px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/email-hover.jpg) no-repeat;
+}
+#contact-email a:active
+{
+	width:336px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/email.jpg) no-repeat;
+}
+
+
+#twitter
+{
+	float:left;
+	position:relative;
+	left:40px;
+	display:block;
+	cursor:pointer;
+	width:73px;
+	height:51px;
+	z-index:9;
+}
+
+#twitter a
+{
+	width:73px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/twitter.jpg) no-repeat;
+}
+
+#twitter a:hover
+{
+	width:73px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/twitter-hover.jpg) no-repeat;
+}
+#twitter a:active
+{
+	width:73px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/twitter.jpg) no-repeat;
+}
+
+#facebook
+{
+	float:left;
+	position:relative;
+	left:40px;
+	display:block;
+	cursor:pointer;
+	width:64px;
+	height:51px;
+	z-index:9;
+}
+
+#facebook a
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/facebook.jpg) no-repeat;
+}
+
+#facebook a:hover
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/facebook-hover.jpg) no-repeat;
+}
+#facebook a:active
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/facebook.jpg) no-repeat;
+}
+
+
+#dribbble
+{
+	float:left;
+	position:relative;
+	left:40px;
+	display:block;
+	cursor:pointer;
+	width:65px;
+	height:51px;
+	z-index:9;
+}
+
+#dribbble a
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/dribbble.jpg) no-repeat;
+}
+
+#dribbble a:hover
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/dribbble-hover.jpg) no-repeat;
+}
+#dribbble a:active
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/dribbble.jpg) no-repeat;
+}
+
+#youtube
+{
+	float:left;
+	position:relative;
+	left:40px;
+	display:block;
+	cursor:pointer;
+	width:65px;
+	height:51px;
+	z-index:9;
+}
+
+#youtube a
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/youtube.jpg) no-repeat;
+}
+
+#youtube a:hover
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/youtube-hover.jpg) no-repeat;
+}
+#youtube a:active
+{
+	width:65px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/youtube.jpg) no-repeat;
+}
+
+
+#linkedin
+{
+	float:left;
+	position:relative;
+	left:40px;
+	display:block;
+	cursor:pointer;
+	width:64px;
+	height:51px;
+	z-index:9;
+}
+
+#linkedin a
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/linkedin.jpg) no-repeat;
+}
+
+#linkedin a:hover
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/linkedin-hover.jpg) no-repeat;
+}
+#linkedin a:active
+{
+	width:64px;
+	height:51px;
+	display:block;
+	background: url(../../content/img/home/linkedin.jpg) no-repeat;
+}
+
+#footer
+{
+	width:100%;
+	height:99px;
+	background: url(../../content/img/shared/bg-footer.jpg);
+}
+
+.preload12 {background: url(../../content/img/home/viewproject-hover.png);}
+.preload13 {background: url(../../content/img/home/viewproject-active.png);}
